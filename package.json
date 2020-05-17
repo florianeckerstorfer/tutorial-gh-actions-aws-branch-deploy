@@ -6,7 +6,7 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
-    "test": "npm run build && grep -q '<h1>Hi</h1>' _site/index.html"
+    "test": "grep -q '<h1>Hi</h1>' _site/index.html"
   },
   "keywords": [],
   "author": "",
